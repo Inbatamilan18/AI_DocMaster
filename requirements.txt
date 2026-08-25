@@ -1,0 +1,13 @@
+streamlit>=1.37
+pypdf>=4.0
+pdfplumber>=0.11
+pillow>=10.0
+pytesseract>=0.3.10        # optional: only needed for scanned PDFs (needs Tesseract binary)
+pypdfium2>=4.0             # optional: rasteriser used only by the OCR fallback
+spacy>=3.7
+langdetect>=1.0.9
+deep-translator>=1.11
+gTTS>=2.5
+google-genai>=1.0        # modern Gemini SDK (free key: https://aistudio.google.com)
+num2words>=0.4
+reportlab>=4.0             # only for regenerating the sample PDF
